@@ -1,0 +1,36 @@
+.background{
+    /* background-color: cyan; */
+    margin-top: 50px;
+    display: inline-block;
+    width: 75%;
+    /* height: 200px; */
+    height: 100%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgb(238, 238, 238);
+  }
+
+  .High {
+    background-color: red;
+    color: white;
+  }
+  .Medium {
+    background-color: rgb(243, 243, 22);
+  }
+  .Low {
+    background-color: rgb(40, 211, 40);
+    /* color: white; */
+  }
